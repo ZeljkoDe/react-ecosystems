@@ -28,8 +28,7 @@ module.exports = {
     },
     devServer: {
         static: path.join(__dirname, 'public/'),
-        port: 3000,
-        hot: true
+        port: 3000
     },
     plugins: [new webpack.HotModuleReplacementPlugin()]
 };
